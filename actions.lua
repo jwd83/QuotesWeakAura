@@ -1,4 +1,3 @@
-
 function()
     local count = 0;
     local list = {
@@ -63,11 +62,15 @@ function()
         "Have no fear of perfection - you'll never reach it. -Salvador Dali",
         "Success is not how high you have climbed, but how you make a positive difference to the world. -Roy T. Bennett",
         "How would your life be different if…You stopped making negative judgmental assumptions about people you encounter? Let today be the day…You look for the good in everyone you meet and respect their journey. -Steve Maraboli",
-        
+        "Talent wins games, but teamwork wins Championships. -Michael Jordan",
+        "Nothing great in the world has been accomplished without passion. -Georg Wilhelm",
+        "The reasonable man adapts himself to the world: the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man. -George Bernard Shaw",
+        "It is hard work to climb down out of the trees, walk upright and build a viable global civilization when you start with technology that's made of rocks and sticks and fur. This is a project and progress is difficult. -Sam Harris"
+
     };
-    for Index, Value in pairs( list ) do 
+    for Index, Value in pairs( list ) do
         count = count + 1;
     end
-    
+
     return list[math.random(count)];
 end
