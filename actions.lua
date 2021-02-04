@@ -65,7 +65,7 @@ function()
         "Talent wins games, but teamwork wins Championships. -Michael Jordan",
         "Nothing great in the world has been accomplished without passion. -Georg Wilhelm",
         "The reasonable man adapts himself to the world: the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man. -George Bernard Shaw",
-        "It is hard work to climb down out of the trees, walk upright and build a viable global civilization when you start with technology that's made of rocks and sticks and fur. This is a project and progress is difficult. -Sam Harris"
+        "It is hard work to climb down out of the trees, walk upright and build a viable global civilization when you start with technology that's made of rocks and sticks and fur. This is a project and progress is difficult. -Sam Harris",
 
     };
     for Index, Value in pairs( list ) do
